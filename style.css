@@ -1,0 +1,286 @@
+.parent {
+/* Create an account / Info */
+
+
+position: relative;
+width: 1440px;
+height: 901px;
+
+/* Off White */
+
+background: #F9F9F9;
+}
+.logo {
+    /* wobot-logo_blue 1 */
+
+
+position: absolute;
+width: 160px;
+height: 36.02px;
+left: 60px;
+top: 60px;
+
+background: url();
+}
+.solid-lines {
+    /* Solid_lines */
+
+
+width: 51px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.content {
+    /* Content */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 91px;
+gap: 24px;
+
+position: absolute;
+width: 560px;
+height: 611px;
+left: 440px;
+top: 93px;
+
+/* White */
+
+background: #FFFFFF;
+/* Normal box */
+
+box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+border-radius: 15px;
+}
+.header {
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 378px;
+height: 185px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.formfields {
+    /* Form Fields */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 368px;
+height: 262px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.button {
+    /* Buttton */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 40px;
+gap: 8px;
+
+width: 368px;
+height: 36px;
+
+/* Primary color */
+
+background: #3766E8;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.heading {
+    /* Heading */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 378px;
+height: 132px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.delight{
+    width: 378px;
+    height: 60 px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color:#212121;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.need {
+    /* Help us know you better. (This is how we optimize Wobot as per your business needs) */
+
+
+width: 378px;
+height: 37px;
+
+/* Caption */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 131% */
+
+text-align: center;
+
+/* Text Primary */
+
+color: #545454;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inputfield1 {
+    /* Input Field */
+
+
+width: 368px;
+height: 82px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.inputfield2 {
+    /* Input Field */
+
+
+width: 368px;
+height: 82px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inputfield3 {
+    /* Input Field */
+
+
+width: 352px;
+height: 82px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.label1 {
+    /* Field Label */
+
+
+position: absolute;
+width: 105px;
+height: 17px;
+left: 0px;
+top: 0px;
+
+/* Label */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Text Primary */
+
+color: #545454;
+
+
+}
+.field1 {
+/* Field */
+
+
+position: absolute;
+height: 36px;
+left: 0%;
+right: 0%;
+top: 25px;
+
+border-radius: 6px;
+}
