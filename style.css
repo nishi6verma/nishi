@@ -352,3 +352,15 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 
 
 }
+.radio-toolbar input[type=radio]:checked+label, .radio-toolbar label:hover {
+    background-color: #3766e8;
+    color: #fff;
+}
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
