@@ -1,3 +1,7 @@
+
+.account {
+    color: blue;
+}
 .parent {
 /* Create an account / Info */
 
@@ -283,4 +287,68 @@ right: 0%;
 top: 25px;
 
 border-radius: 6px;
+}
+.background {
+position: relative;
+width: 1559px;
+height: 1070px;
+left: -124.11px;
+top: -169.36px;
+
+}
+.background-image1 {
+    /* Rectangle 380 */
+
+
+position: absolute;
+width: 1752.px;
+height: 392.25px;
+left: -117.75px;
+top: 707.11px;
+
+/* Gray */
+
+background: #F0F0F0;
+opacity: 0.45;
+transform: rotate(-30deg);
+}
+.background-image2 {
+    /* Rectangle 382 */
+
+
+position: absolute;
+width: 769.01px;
+height: 13.44px;
+left: 792px;
+top: 636.51px;
+
+/* Primary color */
+
+background: #3766E8;
+opacity: 0.2;
+transform: rotate(-30deg);
+}
+.background-image3 {
+    /* Rectangle 381 */
+
+
+position: absolute;
+width: 769.01px;
+height: 13.44px;
+left: -124.11px;
+top: 696.09px;
+
+/* Primary color extralight focus */
+
+background: #E0E8FC;
+transform: rotate(-30deg);
+}
+.grid-container {
+/* Input Field */
+
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+
+
 }
