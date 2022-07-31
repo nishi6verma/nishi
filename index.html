@@ -1,69 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-   
 <head>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+        }
+        main{
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 90vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        img{
+            animation: rotate 1s ease-in infinite;
+        }
+    </style>
 </head>
 <body>
-    <div class="main">
-        <p class="account">Create an account / Info</p>
-    <div class="parent">
-        <img class="logo" src="images/wobot.png" alt=""/>
-        <img class="background" src="images/Background.png">
-    </div>
-        <div class="content">
-            <div class="header">
-                <div class="heading">
-                    <img class="solid-lines" src="images/Solid.png" />
-                    <p class="delight">It's a delight to have you onboard</p>
-                </div>
-                
-                <p class="need">Help us know you better.<br/>
-                    (This is how we optimize Wobot as per your business needs)</p>
-            </div>
-            <div class="formfields">
-           
-                <div class="inputfield1">
-                    <label for="Cname">Company name</label><br>
-                    <input type="text" id="Cname" name="Cname" placeholder="e.g. Example Inc">
-                    
-                </div>
-                <div class="inputfield2">
-                    <label for="Iname">Industry</label><br>
-                    <select name="Iname" id="Iname">
-                        <option value="IT">IT</option>
-                        <option value="chemical">chemical</option>
-                        <option value="biochemical">biochemical</option>
-                        <option value="finance">finance</option>
-                      </select>
-                </div>
-                <div class="inputfield3">
-                    <label for="Iname">Company size</label><br>
-                    <div class="radio-toolbar">
-                        <input type="radio" id="radio1201" name="radiolocation" value="1-20">
-                        <label for="radio1201">1-20</label>
-                        <input type="radio" id="radio21502" name="radiolocation" value="21-50">
-                        <label for="radio21502">21-50</label>
-                        <input type="radio" id="radio512003" name="radiolocation" value="51-200">
-                        <label for="radio512003">51-200</label>
-                        <input type="radio" id="radio2015004" name="radiolocation" value="201-500">
-                        <label for="radio2015004">201-500</label>
-                        <input type="radio" id="radio2015005" name="radiolocation" value="500+">
-                        <label for="radio2015004">500+</label>
-                        
-                        
-                        
-                    </div>
-
-                </div>
-            </div>
-            <div class="button">
-                <button>Get Started</button>
-            </div>
-           
-        </div>
-        
-    </div>
-</div>
+    <div class="progress"></div>
+    <header></header>
+    <main>
+        <img src="dragon.png" alt="" width="122px">
+    </main>
 </body>
 </html>
