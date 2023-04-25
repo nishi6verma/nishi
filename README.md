@@ -1,2 +1,2 @@
-# file:///C:/Users/user/Desktop/nishi6verma.github.io/bmi.html
+# nishi6verma.github.io
 The BMI Calculator takes your height and weight as input and gives BMI (Body Mass Index) as an output.
